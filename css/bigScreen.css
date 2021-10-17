@@ -1,0 +1,37 @@
+#navbar {
+  height: fit-content;
+}
+
+#navbar::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: black;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#navbar ul a {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  padding: 0px 10px;
+  padding-bottom: 15px;
+  margin: 0px 4px;
+  font-family: var(--content-font);
+  font-size: 2.3rem;
+}
+
+#navbar ul a:hover {
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-radius: 20px;
+  padding: 3px;
+  cursor: pointer;
+  font-family: var(--content-font);
+  font-weight: bold;
+}

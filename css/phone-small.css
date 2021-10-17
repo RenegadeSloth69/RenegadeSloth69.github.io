@@ -18,11 +18,3 @@
   font-family: var(--content-font);
   font-size: 0.9rem;
 }
-
-#services {
-  height: fit-content;
-  display: grid;
-  grid-template-columns: repeat(auto, minmax(215px, 1fr));
-  grid-auto-rows: auto;
-  margin-bottom: 7px;
-}

@@ -138,10 +138,18 @@ html {
 /* Services Section */
 #services {
   height: fit-content;
-  display: grid;
-  grid-template-columns: repeat(auto, minmax(215px, 1fr));
-  grid-auto-rows: auto;
+
   margin-bottom: 7px;
+}
+
+#services h1 {
+  margin-bottom: 10px;
+}
+
+#services-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  grid-auto-rows: auto;
 }
 
 .serviceItems {
