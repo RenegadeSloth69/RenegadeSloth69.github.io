@@ -1,0 +1,55 @@
+/* VARIABLES */
+:root {
+  --head-font: "Baloo Chettan 2", cursive;
+  --title-font: "Orelega One", cursive;
+}
+
+body {
+  background: url("../images/services.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* content styling */
+.content {
+  margin-top: 150px;
+  color: rgb(207, 205, 205);
+  font-family: var(--head-font);
+}
+
+.content > .content-c > h1 {
+  font-family: var(--title-font);
+  font-size: 50px;
+}
+
+.content > .content-c > h2 {
+  font-size: 30px;
+}
+
+.content-c {
+  margin: 0px 5px;
+  padding: 0px 5px;
+  background: transparent;
+  border-radius: 18px;
+  border: 3px solid white;
+  backdrop-filter: blur(6px);
+}
+
+.content > .content-c > .serv-desc > p {
+  font-size: 18px;
+  grid-area: p;
+}
+
+.content > .content-c > .serv-desc > img {
+  grid-area: i;
+  width: 80%;
+  height: 80%;
+  position: relative;
+  left: 25px;
+}
+
+.serv-desc {
+  display: grid;
+  grid-template-areas: "p i";
+}

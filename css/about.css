@@ -1,0 +1,9 @@
+:root {
+  --head-font: "Baloo Chettan 2", cursive;
+  --title-font: "Orelega One", cursive;
+}
+
+.content {
+  margin-top: 100px;
+  font-family: var(--head-font);
+}

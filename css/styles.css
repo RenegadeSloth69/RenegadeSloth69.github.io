@@ -1,0 +1,154 @@
+/* variables */
+:root {
+  --head-font: "Baloo Chettan 2", cursive;
+  --title-font: "Orelega One", cursive;
+}
+
+body {
+  margin: 0%;
+}
+
+* {
+  /* border: 0px; */
+  /* padding: 0; 
+  outline: 0ch;*/
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* navbar styles */
+
+.navbar {
+  margin-top: 0;
+  background: black;
+  color: white;
+  padding-left: 10px;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  height: fit-content;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-items h1 {
+  font-size: 40px;
+  margin-top: 17px;
+  font-family: var(--title-font);
+}
+
+.nav-items ul {
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.nav-items ul li {
+  padding: 0px 11px;
+  font-family: var(--head-font);
+}
+
+.nav-items ul li:hover {
+  /* background: white;
+  color: black; */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px 18px;
+  padding: 0%;
+  margin: 0%;
+  position: relative;
+  left: -20px;
+}
+
+.dropdown li {
+  /* color: black;
+  background: white; */
+  display: none;
+}
+
+#drop:hover .dropdown > li {
+  display: flex;
+  flex-direction: column;
+  border-radius: 18px;
+}
+
+#drop:hover .dropdown > li a:hover {
+  color: rgb(77, 2, 2);
+}
+
+#drop:hover .dropdown {
+  display: flex;
+  /* border-radius: 18px 18px; */
+  padding: 0%;
+  margin: 0%;
+}
+
+.dropdown li a {
+  text-decoration: none;
+}
+
+/* content styles */
+.main-c {
+  background: rgb(37, 37, 37);
+}
+.gym-img {
+  width: 100%;
+  height: 800px;
+  background-attachment: fixed;
+}
+
+.caption > h2 {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  font-family: var(--head-font);
+  font-size: 50px;
+  opacity: 1;
+}
+
+#t1 {
+  color: white;
+  font-family: var(--head-font);
+  font-size: 50px;
+  text-align: center;
+}
+
+.protein {
+  width: 100%;
+  height: 800px;
+  opacity: 0.5;
+  background-attachment: fixed;
+}
+
+#t2 {
+  position: absolute;
+  top: 1100px;
+  color: white;
+  font-family: var(--head-font);
+  font-size: 40px;
+}
+
+/* footer styling */
+.footer {
+  margin: 0;
+  background: rgb(37, 37, 37);
+  color: white;
+  font-size: 10px;
+}

@@ -1,0 +1,52 @@
+/* variables */
+:root {
+  --head-font: "Baloo Chettan 2", cursive;
+  --title-font: "Orelega One", cursive;
+}
+
+/* content styling */
+.content {
+  display: grid;
+  grid-template-areas: "i c";
+  margin-top: 100px;
+  font-family: var(--head-font);
+}
+
+ul li {
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: var(--title-font);
+  font-size: 300%;
+}
+
+#img {
+  width: 90%;
+  height: 90%;
+}
+
+.c-image {
+  grid-area: i;
+}
+
+.c-para {
+  grid-area: c;
+}
+
+button > a {
+  text-decoration: none;
+  font-family: var(--head-font);
+  font-size: 20px;
+  color: white;
+  padding: 0px 5px;
+}
+
+button {
+  background: black;
+  position: relative;
+  left: 300px;
+  margin: 5px 10px;
+  border: 2px solid white;
+  border-radius: 18px;
+}

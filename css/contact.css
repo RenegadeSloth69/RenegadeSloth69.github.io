@@ -1,0 +1,25 @@
+/* variables */
+:root {
+  --head-font: "Baloo Chettan 2", cursive;
+  --title-font: "Orelega One", cursive;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 18px;
+  font-family: var(--head-font);
+  margin-left: 600px;
+  width: fit-content;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.card > img {
+  width: 20%;
+  height: 20%;
+}
